@@ -1,0 +1,7 @@
+El proyecto funciona asi: el index muestra imagenes sobre los diferentes celebridades de guatemala
+Para ir a la informacion de cada personaje tiene que clickear la imagen y esta la enviara a su biografia.
+Luego a lfinal de la misma hay un boton para ponerse en contacto con la celebridad
+Llenara sus datos y esto funciona con un proceso PHP.
+
+
+Gracias :)

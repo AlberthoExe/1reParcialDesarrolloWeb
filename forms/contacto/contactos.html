@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylescon.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="container" >
+        <h1>Contacto</h1>
+        <form id = "contacto" method="post" action="proceso.php">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label>Género:</label>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+            <label><input type="radio" name="genero" value="otro"> Otro</label>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="8" required></textarea>
+
+            <button type="submit" class="enviar-button">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

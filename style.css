@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+/* Aqui modifica todo lo que esta en header */
+header{
+    background-color: #CCD1D1;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display:  inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+}
+
+nav a:hover{
+    background-color: #2471A3;
+    color: #fff;
+    border-radius: 30px ;
+}
+
+.encabezado-img{
+    background-image: url("imgs/portada.jpg");
+    height: 550px;
+    /*el background-size sirve para ajustar la imagen*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+    color:lightgrey;
+}
+
+.encabezado-img p{
+    font-size: 32px;
+}
+
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0px ;
+}
+
+article{
+    padding: 40px;
+    background-color:#f2f2f2;
+}
+
+.introduccion{
+    padding: 20px;
+}
+.contenido{
+    margin-right: 100px;
+    
+}
+.oscar{
+    padding: 40px;
+}
+.oscar img{
+    padding: 40px;
+    height:  700px;
+}
+.kevin{
+    padding: 40px;
+}
+.kevin img{
+    padding: 40px;
+}
+.ricardo{
+    padding: 40px;
+}
+.ricardo img{
+    padding: 40px;
+}
+.ligia{
+    padding: 40px;
+}
+.ligia img{
+    width: 700px;
+    padding: 40px;
+}
+.luis{
+    padding: 10px;
+}
+.luiss{
+    width: 1000px;
+    padding: 40px;
+    
+}
